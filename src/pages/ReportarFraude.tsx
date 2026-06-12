@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const API_URL = "https://localhost:7098/api/fraud";
+const API_URL = "https://examenprografraudejoha.runasp.net/api/fraud";
 
 export default function ReportarFraude() {
   const [form, setForm] = useState({
